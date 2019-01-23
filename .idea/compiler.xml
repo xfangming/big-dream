@@ -9,8 +9,5 @@
         <module name="big-dream" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="big-dream" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
