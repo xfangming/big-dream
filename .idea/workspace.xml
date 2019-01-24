@@ -13,10 +13,11 @@
     <session id="-1213813725">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -126,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/dream/toolkit/test/TestString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="216">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -190,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,8 +237,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,6 +321,7 @@
       <workItem from="1547622418318" duration="525000" />
       <workItem from="1548209789893" duration="3224000" />
       <workItem from="1548231596185" duration="599000" />
+      <workItem from="1548290336577" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="httputil">
       <created>1546505621698</created>
@@ -357,12 +359,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8857000" />
+    <option name="totallyTimeSpent" value="8892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -586,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/dream/toolkit/test/TestString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="216">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
