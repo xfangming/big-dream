@@ -15,13 +15,11 @@ public class DateUtils {
         if (pattern == null) {
             return getSimpleDateFormat();
         }
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-        return simpleDateFormat;
+        return new SimpleDateFormat(pattern);
     }
 
     public static SimpleDateFormat getSimpleDateFormat() {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(defaultPattern);
-        return simpleDateFormat;
+        return new SimpleDateFormat(defaultPattern);
     }
 
     public static String getDateFormat(Date date) {
@@ -30,6 +28,10 @@ public class DateUtils {
 
     public static String getDateFormat(Date date, String pattern) {
         return getSimpleDateFormat(pattern).format(date);
+    }
+
+    public static String getCurrentDateString(){
+        return getDateFormat(new Date());
     }
 
     /**
@@ -112,6 +114,23 @@ public class DateUtils {
             e.printStackTrace();
         }
         return date;
+    }
+
+    public static Date parse(Object value) {
+        if (value == null) {
+            return null;
+        }
+        if (value instanceof Long) {
+            return stampToDate((Long) value);
+        } else if (value instanceof String){
+            try {
+                long l = Long.parseLong(value.toString());
+                return stampToDate(l);
+            } catch (Exception e) {
+                return getDateWithPattern(value.toString(), defaultPattern);
+            }
+        }
+        return  (Date) value;
     }
 
 }
