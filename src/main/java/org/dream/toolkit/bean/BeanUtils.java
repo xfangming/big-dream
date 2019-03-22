@@ -288,7 +288,6 @@ public class BeanUtils {
                 Object tem = var2.next();
                 maps.add(beanToMap(tem));
             }
-
             return maps;
         }
     }
