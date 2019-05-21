@@ -1,6 +1,7 @@
 package org.dream.toolkit.common;
 
 import org.dream.toolkit.enums.BeanPrefix;
+import org.dream.toolkit.utils.StringUtils;
 
 /**
  * @author tobiasy

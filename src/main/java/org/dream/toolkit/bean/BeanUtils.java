@@ -2,7 +2,7 @@ package org.dream.toolkit.bean;
 
 import org.dream.toolkit.common.CollectionUtils;
 import org.dream.toolkit.common.DateUtils;
-import org.dream.toolkit.common.StringUtils;
+import org.dream.toolkit.utils.StringUtils;
 import org.dream.toolkit.enums.BeanPrefix;
 import org.dream.toolkit.enums.ClassEnum;
 import org.dream.toolkit.reflect.ReflectUtils;
@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 import java.math.BigDecimal;
 import java.util.*;
 
-import static org.dream.toolkit.common.StringUtils.capitalizeCase;
+import static org.dream.toolkit.utils.StringUtils.capitalizeCase;
 import static org.dream.toolkit.reflect.ReflectUtils.invoke;
 
 /**

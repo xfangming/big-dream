@@ -9,7 +9,7 @@ import java.util.Map;
 import org.dream.toolkit.result.DifferentResult;
 import org.dream.toolkit.enums.BeanPrefix;
 
-import static org.dream.toolkit.common.StringUtils.capitalizeCase;
+import static org.dream.toolkit.utils.StringUtils.capitalizeCase;
 import static org.dream.toolkit.reflect.ReflectUtils.getGlobalFields;
 import static org.dream.toolkit.reflect.ReflectUtils.invoke;
 

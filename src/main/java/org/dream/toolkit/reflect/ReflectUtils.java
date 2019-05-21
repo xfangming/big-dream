@@ -1,9 +1,9 @@
 package org.dream.toolkit.reflect;
 
 import org.dream.toolkit.bean.BeanUtils;
-import org.dream.toolkit.common.StringUtils;
 import org.dream.toolkit.enums.ModifierEnum;
 import org.dream.toolkit.utils.ArrayUtils;
+import org.dream.toolkit.utils.StringUtils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

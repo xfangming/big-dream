@@ -1,6 +1,6 @@
 package org.dream.toolkit.test;
 
-import org.dream.toolkit.common.StringUtils;
+import org.dream.toolkit.utils.StringUtils;
 
 public class TestString {
     public static void main(String[] args) {
